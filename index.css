@@ -1,0 +1,50 @@
+html, body{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 550px;
+    background-color: #1F2937;
+    font-family: 'Inter', sans-serif;
+}
+
+#header{
+    margin: 1.75rem 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    width: 4rem;
+    height: 2.7rem;
+    border-radius: 7px;
+}
+
+select{
+    width: 270px;
+    padding: 9px 13px;
+    background: #1F293A;
+    border-radius: 7px;
+    color: #D5D4D8;
+    font-family: inherit;
+    border: 1px solid #D1D5DB;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+button{
+    background-color: #3D4B60;
+    border: none;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: inherit;
+    padding: 0.7rem 1.2rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#colors-palete{
+    transform: rotate(-90deg);
+    size: 700px;
+}
